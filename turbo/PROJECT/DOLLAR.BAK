@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int dollar,rupees;
+	clrscr();
+	rupees=dollar*80;
+	printf("Rupees are:%d",rupees);
+	getch();
+}

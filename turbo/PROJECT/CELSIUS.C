@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	float cel,fer;
+	clrscr();
+	printf("cel:");
+	scanf("%f",&cel);
+	fer=(cel* 9)/5+32;
+	printf("ans is:%f",fer);
+	getch();
+}

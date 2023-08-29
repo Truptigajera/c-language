@@ -1,0 +1,16 @@
+#include<stdio.h>
+void add() //function defination
+{
+	int a,b;
+	printf("enter a and b:");
+	scanf("%d%d",&a,&b);
+	printf("Addition of a and b is:%d",t);	
+}
+
+	int main()
+	{
+	printf("hi");
+	add();
+	printf("hello");
+	add();
+	}

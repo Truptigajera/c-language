@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,x;
+	clrscr();
+	printf("enter a,b:");
+	scanf("%d%d",&a,&b);
+	x=a;
+	a=b;
+	b=x;
+	printf("swap value with third var a=%db=%d",a,b);
+	getch();
+
+}
